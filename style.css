@@ -5,7 +5,7 @@
 }
 
 html {
-    font-family: 'Inter var', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 body {
@@ -42,7 +42,7 @@ header {
     margin: 0 auto;
     text-align: center;
     background-color: #f9f5ff;
-    width: 100%;
+    /* width: 100%; */
 
 
 }
@@ -53,21 +53,23 @@ header {
 
 }
 
-.texts {
-    width: 82px;
-    height: 28px;
-    background-color: #ffffff;
-    border-radius: 5px;
+.text_lg {
+    text-align: center;
     border: none;
-    margin: 0 auto;
+
 }
 
-.text {
+.text_sm {
     font-size: 14px;
     padding: 4px 12px;
     color: #6941c6;
     font-weight: 500;
-    line-height: 28px;
+    line-height: 20px;
+    background-color: #e9dbfd;
+    border: none;
+    border-radius: 16px;
+
+
 
 }
 
@@ -102,13 +104,10 @@ header {
     border: 1px solid #d0d5dd;
 }
 
-
-
-
-.tho {
+.cart_pading_bottom {
     display: flex;
-    /* background-color: rgba(16, 24, 40, 0.03); */
     margin-bottom: 72px;
+
 }
 
 .cart:hover {
@@ -116,15 +115,15 @@ header {
 }
 
 .cart {
+
     padding: 24px;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: stretch;
     justify-items: flex-start;
-    /* background-color: rgba(16, 24, 40, 0.03); */
     background-color: #fff;
-    box-shadow: 0px 4px 0px 4px rgba(16, 24, 40, 0.03);
+    box-shadow: 0 4px 12px rgba(16, 24, 40, 0.03);
 }
 
 .img_cart img {
@@ -288,39 +287,17 @@ header {
 
 }
 
-.icon {
-    /* padding: 10px; */
-    margin-left: 6px;
-    border-radius: 5px;
-    background-color: #f9f5ff;
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    position: relative;
-
-}
-
-.fa-rocket {
-    color: #6941c6;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    /* line-height: 40px; */
-
+.input_comment input:focus {
+    border: 1px solid #101828;
 }
 
 
 
-/* .comment:not(:first-child) {
-    margin-left: 100px;
-} */
 
 .comment_container {
     display: flex;
     flex-direction: row;
     font-size: 16px;
-
     line-height: 24px;
 }
 
@@ -332,6 +309,7 @@ header {
 
 .comment_right {
     margin-left: 12px;
+    font-size: 16px;
     background-color: #f7f8f9;
     flex: 1;
     border-radius: 10px;
@@ -344,9 +322,45 @@ header {
 
 }
 
+.commen {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.time {
+    font-size: 14px;
+}
+
 .comment_right span {
     float: right;
     color: #b8c0cc;
+}
+
+
+
+
+.icon {
+    border: none;
+    margin-left: 6px;
+    border-radius: 5px;
+    background-color: #f9f5ff;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+
+    position: relative;
+
+}
+
+.fa-rocket {
+    font-size: 15px;
+    color: #6941c6;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* line-height: 40px; */
+
 }
 
 .icons a {
@@ -368,6 +382,10 @@ header {
     font-size: 14px;
     color: #6941c6;
 
+}
+
+.view a {
+    font-size: 14px;
 }
 
 .like i {
