@@ -5,497 +5,326 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>PSD to HTML</title>
+    <link rel="stylesheet" href="defaul.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="responsive.css">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="stylesheet" href="1.scss">
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@300;600&display=swap"
         rel="stylesheet">
-    <style>
-    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 </head>
 
 <body>
     <header>
-        <div class="wrapper">
+        <div class="container">
             <div class="header">
-                <div class="header__top">
-                    <div class="text-lg">
-                        <button class="text_sm">
-                            Our blog
-                        </button>
-
+                <div class="header-content">
+                    <div class="header-name">
+                        <a href="">Our blog</a>
                     </div>
-                    <h3 class="title">
-                        Resources and insights
-                    </h3>
-                    <p class="header__content">
-                        The latest industry news, interviews, technologies, and resources
-                    </p>
+                    <h2 class="header-title">Resources and insights</h2>
+                    <p class="header-sub">The latest industry news, interviews, technologies, and resources.</p>
+                    <div class="header-search">
+                        <input type="text" placeholder="Search">
+                    </div>
                 </div>
-                <div class="input__header">
-                    <input class="search" type="text" placeholder="Search">
-                </div>
-            </div>
 
+            </div>
         </div>
 
     </header>
-    <div class="wrapper">
-        <div class="row">
-            <div class="col col-md-12 col-lg-6 col-xl-4 cart_pading_bottom">
-                <div class="cart">
-                    <div class="img_cart">
-                        <img src="https://images.unsplash.com/photo-1596079890701-dd42edf0b7d4?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
-                            alt="">
-                    </div>
-                    <div class="content_cart">
-                        <p class="name_cart">Design </p>
-                        <div class="title_cart">
-                            <h3 class="title_cart_text">
-                                UX review presentations
-                            </h3>
-                            <i class="fa-solid fa-arrow-up cart_arrow"></i>
+    <section id="card">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-4 height-flex">
+                    <div class="blog-card">
+                        <div class="card-img">
+                            <img src="image/card0.jpg" alt="">
                         </div>
-                        <p class="text_cart">
+                        <p class="card-sub">Design</p>
+                        <h3 class="card-title">UX review presentations <i class="fa-solid fa-arrow-up cart-arrow"></i>
+                        </h3>
+                        <p class="card-description">Width
                             How do you create compelling presentations that wow your colleagues and impress your
                             managers?
                         </p>
-
-                    </div>
-                    <div class="avata_cart">
-                        <div class="img_avata">
-                            <img src="https://s3-alpha-sig.figma.com/img/2f11/9087/0d753151f58657595136f67c584b5c8c?Expires=1660521600&Signature=QV6tTyIyFQUbbJ2v3HMvBgQ6wwBwtfvHyE5n4SxcC7r8ocDwsIHFwH4hwk9TVs~HBCDTw76bLJlJ~7AMZkd8RO5SZ2InMcYHThpFu3LZPuZvJA49iM8UYqA6Ho0OkXDLRU4fqvoQRBeqnG7P9PFzMGq0~FnZn-ZX27Dz2893CiC3drL77diJaOrJy-Trc2J1FzM~ynUwrI1W0~EgzXguPbvv~377vG~DCAbGtUriNIBGpPkvegPp4tCuFyME0dVIzmVehjgjKbcMNPZERyoA4qq99bvHoceRjY-LyN6JqIHaovT5WgjLs9x1UQkMplzfDxZ4~O3RmyZ3teX-WK1RIg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
-                                alt="">
+                        <div class="avatar">
+                            <div class="avatar-img">
+                                <img src="image/avatar0.jpg" alt="">
+                            </div>
+                            <div class="avatar-text">
+                                <div class="avatar-title">Olivia Rhye</div>
+                                <div class="avatar-time">20 Jan 2022</div>
+                            </div>
                         </div>
-                        <div class="text_avata">
-                            <p class="name_avata">
-                                Olivia Rhye
-                            </p>
-                            <p class="day_avata">
-                                20 Jan 2022
-
-                            </p>
-                        </div>
-
                     </div>
+
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 height-flex">
+                    <div class="blog-card">
+                        <div class="card-img">
+                            <img src="image/card1.jpg" alt="">
+                        </div>
+                        <p class="card-sub">Product</p>
+                        <h3 class="card-title">UX review presentations <i class="fa-solid fa-arrow-up cart-arrow"></i>
+                        </h3>
+                        <p class="card-description">Linear helps streamline software projects, sprints, tasks, and bug
+                            tracking. Here’s how to get started.</p>
+                        <div class="avatar">
+                            <div class="avatar-img">
+                                <img src="image/avatar1.jpg" alt="">
+                            </div>
+                            <div class="avatar-text">
+                                <div class="avatar-title">Olivia Rhye</div>
+                                <div class="avatar-time">20 Jan 2022</div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 height-flex">
+                    <div class="blog-card">
+                        <div class="card-img">
+                            <img src="image/card2.jpg" alt="">
+                        </div>
+                        <p class="card-sub">Software Engineering</p>
+                        <h3 class="card-title">Migrating to Linear<i class="fa-solid fa-arrow-up cart-arrow"></i>
+                        </h3>
+                        <p class="card-description">The rise of RESTful APIs has been met by a rise in tools for
+                            creating, testing, and managing them.</p>
+                        <div class="avatar">
+                            <div class="avatar-img">
+                                <img src="image/avatar2.jpg" alt="">
+                            </div>
+                            <div class="avatar-text">
+                                <div class="avatar-title">Olivia Rhye</div>
+                                <div class="avatar-time">20 Jan 2022</div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
-            <div class="col col-md-12 col-lg-6 col-xl-4 cart_pading_bottom">
-                <div class="cart">
-                    <div class="img_cart">
-                        <img src="https://s3-alpha-sig.figma.com/img/c220/b565/fba3f3369a85cb9bd4d04bf17c85be21?Expires=1661126400&Signature=OPexvBAdhGEImAR16mlqF6G2GFO80-NhX6GPRJJvgzfAcMkjS-vI8l5yhg9MJsGnH0etsat~iFuxktGXctq0g-hVnHWs3abNtXeB-bErO6h3ELv~tU~Fdw3GWJU2nfZE-tIqh~HjmNB1DBq6qAsPRlbA6CGacwOMotd5jFnV5HI4KKzXIeg4Ko13eU7e7dbaOWqvOb2cwoU5EZfSWGngi0oZePx72bQ77-Cer~9K7~oUmRzltYkAsoZxSKwmTdn19uzwQFtaqxSrB0~FWIANLN0fa9fs3KjW84tzdIKbI33U1rIqr~Ejzrd4Vh782hVedlNyycpDju7e07g8Gbm-sw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
-                            alt="">
-                    </div>
-                    <div class="content_cart">
-                        <p class="name_cart">Design </p>
-                        <div class="title_cart">
-                            <h3 class="title_cart_text">
-                                Migrating to Linear 101
-
-                            </h3>
-                            <i class="fa-solid fa-arrow-up cart_arrow"></i>
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-4 height-flex">
+                    <div class="blog-card">
+                        <div class="card-img">
+                            <img src="image/card0.jpg" alt="">
                         </div>
-                        <p class="text_cart">
-                            Linear helps streamline software projects, sprints, tasks, and bug tracking. Here’s how to
-                            get started.
-                        </p>
-
-                    </div>
-                    <div class="avata_cart">
-                        <div class="img_avata">
-                            <img src="https://s3-alpha-sig.figma.com/img/2f11/9087/0d753151f58657595136f67c584b5c8c?Expires=1660521600&Signature=QV6tTyIyFQUbbJ2v3HMvBgQ6wwBwtfvHyE5n4SxcC7r8ocDwsIHFwH4hwk9TVs~HBCDTw76bLJlJ~7AMZkd8RO5SZ2InMcYHThpFu3LZPuZvJA49iM8UYqA6Ho0OkXDLRU4fqvoQRBeqnG7P9PFzMGq0~FnZn-ZX27Dz2893CiC3drL77diJaOrJy-Trc2J1FzM~ynUwrI1W0~EgzXguPbvv~377vG~DCAbGtUriNIBGpPkvegPp4tCuFyME0dVIzmVehjgjKbcMNPZERyoA4qq99bvHoceRjY-LyN6JqIHaovT5WgjLs9x1UQkMplzfDxZ4~O3RmyZ3teX-WK1RIg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
-                                alt="">
-                        </div>
-                        <div class="text_avata">
-                            <p class="name_avata">
-                                Olivia Rhye
-                            </p>
-                            <p class="day_avata">
-                                20 Jan 2022
-
-                            </p>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-            <div class="col col-md-12 col-lg-6 col-xl-4 cart_pading_bottom">
-                <div class="cart">
-                    <div class="img_cart">
-                        <img src="https://s3-alpha-sig.figma.com/img/c220/b565/fba3f3369a85cb9bd4d04bf17c85be21?Expires=1661126400&Signature=OPexvBAdhGEImAR16mlqF6G2GFO80-NhX6GPRJJvgzfAcMkjS-vI8l5yhg9MJsGnH0etsat~iFuxktGXctq0g-hVnHWs3abNtXeB-bErO6h3ELv~tU~Fdw3GWJU2nfZE-tIqh~HjmNB1DBq6qAsPRlbA6CGacwOMotd5jFnV5HI4KKzXIeg4Ko13eU7e7dbaOWqvOb2cwoU5EZfSWGngi0oZePx72bQ77-Cer~9K7~oUmRzltYkAsoZxSKwmTdn19uzwQFtaqxSrB0~FWIANLN0fa9fs3KjW84tzdIKbI33U1rIqr~Ejzrd4Vh782hVedlNyycpDju7e07g8Gbm-sw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
-                            alt="">
-                    </div>
-                    <div class="content_cart">
-                        <p class="name_cart">Design </p>
-                        <div class="title_cart">
-                            <h3 class="title_cart_text">
-                                UX review presentations
-
-                            </h3>
-                            <i class="fa-solid fa-arrow-up cart_arrow"></i>
-                        </div>
-                        <p class="text_cart">
-                            Linear helps streamline software projects, sprints, tasks, and bug tracking. Here’s how to
-                            get started.
-                        </p>
-
-                    </div>
-                    <div class="avata_cart">
-                        <div class="img_avata">
-                            <img src="https://s3-alpha-sig.figma.com/img/2f11/9087/0d753151f58657595136f67c584b5c8c?Expires=1660521600&Signature=QV6tTyIyFQUbbJ2v3HMvBgQ6wwBwtfvHyE5n4SxcC7r8ocDwsIHFwH4hwk9TVs~HBCDTw76bLJlJ~7AMZkd8RO5SZ2InMcYHThpFu3LZPuZvJA49iM8UYqA6Ho0OkXDLRU4fqvoQRBeqnG7P9PFzMGq0~FnZn-ZX27Dz2893CiC3drL77diJaOrJy-Trc2J1FzM~ynUwrI1W0~EgzXguPbvv~377vG~DCAbGtUriNIBGpPkvegPp4tCuFyME0dVIzmVehjgjKbcMNPZERyoA4qq99bvHoceRjY-LyN6JqIHaovT5WgjLs9x1UQkMplzfDxZ4~O3RmyZ3teX-WK1RIg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
-                                alt="">
-                        </div>
-                        <div class="text_avata">
-                            <p class="name_avata">
-                                Olivia Rhye
-                            </p>
-                            <p class="day_avata">
-                                20 Jan 2022
-
-                            </p>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-
-
-        </div>
-        <div class="row">
-            <div class="col col-md-12 col-lg-6 col-xl-4 cart_pading_bottom">
-                <div class="cart">
-                    <div class="img_cart">
-                        <img src="https://images.unsplash.com/photo-1596079890701-dd42edf0b7d4?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
-                            alt="">
-                    </div>
-                    <div class="content_cart">
-                        <p class="name_cart">Design 1</p>
-                        <div class="title_cart">
-                            <h3 class="title_cart_text">
-                                Bill Walsh leadership lessons
-
-                            </h3>
-                            <i class="fa-solid fa-arrow-up cart_arrow"></i>
-                            <!-- <div class="cart_arrow">
-                                <i class="fa-solid fa-arrow-up-right cart_arrow"></i>
-                            </div> -->
-                        </div>
-                        <p class="text_cart">
+                        <p class="card-sub">Design</p>
+                        <h3 class="card-title">UX review presentations <i class="fa-solid fa-arrow-up cart-arrow"></i>
+                        </h3>
+                        <p class="card-description">Width
                             How do you create compelling presentations that wow your colleagues and impress your
                             managers?
                         </p>
-
-                    </div>
-                    <div class="avata_cart">
-                        <div class="img_avata">
-                            <img src="https://s3-alpha-sig.figma.com/img/2f11/9087/0d753151f58657595136f67c584b5c8c?Expires=1660521600&Signature=QV6tTyIyFQUbbJ2v3HMvBgQ6wwBwtfvHyE5n4SxcC7r8ocDwsIHFwH4hwk9TVs~HBCDTw76bLJlJ~7AMZkd8RO5SZ2InMcYHThpFu3LZPuZvJA49iM8UYqA6Ho0OkXDLRU4fqvoQRBeqnG7P9PFzMGq0~FnZn-ZX27Dz2893CiC3drL77diJaOrJy-Trc2J1FzM~ynUwrI1W0~EgzXguPbvv~377vG~DCAbGtUriNIBGpPkvegPp4tCuFyME0dVIzmVehjgjKbcMNPZERyoA4qq99bvHoceRjY-LyN6JqIHaovT5WgjLs9x1UQkMplzfDxZ4~O3RmyZ3teX-WK1RIg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
-                                alt="">
+                        <div class="avatar">
+                            <div class="avatar-img">
+                                <img src="image/avatar0.jpg" alt="">
+                            </div>
+                            <div class="avatar-text">
+                                <div class="avatar-title">Olivia Rhye</div>
+                                <div class="avatar-time">20 Jan 2022</div>
+                            </div>
                         </div>
-                        <div class="text_avata">
-                            <p class="name_avata">
-                                Olivia Rhye
-                            </p>
-                            <p class="day_avata">
-                                20 Jan 2022
-
-                            </p>
-                        </div>
-
                     </div>
+
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 height-flex">
+                    <div class="blog-card">
+                        <div class="card-img">
+                            <img src="image/card1.jpg" alt="">
+                        </div>
+                        <p class="card-sub">Product</p>
+                        <h3 class="card-title">UX review presentations <i class="fa-solid fa-arrow-up cart-arrow"></i>
+                        </h3>
+                        <p class="card-description">Linear helps streamline software projects, sprints, tasks, and bug
+                            tracking. Here’s how to get started.</p>
+                        <div class="avatar">
+                            <div class="avatar-img">
+                                <img src="image/avatar1.jpg" alt="">
+                            </div>
+                            <div class="avatar-text">
+                                <div class="avatar-title">Olivia Rhye</div>
+                                <div class="avatar-time">20 Jan 2022</div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 height-flex">
+                    <div class="blog-card">
+                        <div class="card-img">
+                            <img src="image/card2.jpg" alt="">
+                        </div>
+                        <p class="card-sub">Software Engineering</p>
+                        <h3 class="card-title">Migrating to Linear <i class="fa-solid fa-arrow-up cart-arrow"></i>
+                        </h3>
+                        <p class="card-description">The rise of RESTful APIs has been met by a rise in tools for
+                            creating, testing, and managing them.</p>
+                        <div class="avatar">
+                            <div class="avatar-img">
+                                <img src="image/avatar2.jpg" alt="">
+                            </div>
+                            <div class="avatar-text">
+                                <div class="avatar-title">Olivia Rhye</div>
+                                <div class="avatar-time">20 Jan 2022</div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
-            <div class="col col-md-12 col-lg-6 col-xl-4 cart_pading_bottom">
-                <div class="cart">
-                    <div class="img_cart">
-                        <img src="https://images.unsplash.com/photo-1596079890701-dd42edf0b7d4?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
-                            alt="">
-                    </div>
-                    <div class="content_cart">
-                        <p class="name_cart">Design </p>
-                        <div class="title_cart">
-                            <h3 class="title_cart_text">
-                                PM mental models
-                            </h3>
-                            <i class="fa-solid fa-arrow-up cart_arrow"></i>
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-4 height-flex">
+                    <div class="blog-card">
+                        <div class="card-img">
+                            <img src="image/card0.jpg" alt="">
                         </div>
-                        <p class="text_cart">
-                            How do you create compelling presentations that wow your colleagues and impress your
-                            managers?
-
-                        </p>
-
-                    </div>
-                    <div class="avata_cart">
-                        <div class="img_avata">
-                            <img src="https://s3-alpha-sig.figma.com/img/2f11/9087/0d753151f58657595136f67c584b5c8c?Expires=1660521600&Signature=QV6tTyIyFQUbbJ2v3HMvBgQ6wwBwtfvHyE5n4SxcC7r8ocDwsIHFwH4hwk9TVs~HBCDTw76bLJlJ~7AMZkd8RO5SZ2InMcYHThpFu3LZPuZvJA49iM8UYqA6Ho0OkXDLRU4fqvoQRBeqnG7P9PFzMGq0~FnZn-ZX27Dz2893CiC3drL77diJaOrJy-Trc2J1FzM~ynUwrI1W0~EgzXguPbvv~377vG~DCAbGtUriNIBGpPkvegPp4tCuFyME0dVIzmVehjgjKbcMNPZERyoA4qq99bvHoceRjY-LyN6JqIHaovT5WgjLs9x1UQkMplzfDxZ4~O3RmyZ3teX-WK1RIg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
-                                alt="">
-                        </div>
-                        <div class="text_avata">
-                            <p class="name_avata">
-                                Olivia Rhye
-                            </p>
-                            <p class="day_avata">
-                                20 Jan 2022
-
-                            </p>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-            <div class="col col-md-12 col-lg-6 col-xl-4 cart_pading_bottom">
-                <div class="cart">
-                    <div class="img_cart">
-                        <img src="https://images.unsplash.com/photo-1596079890701-dd42edf0b7d4?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
-                            alt="">
-                    </div>
-                    <div class="content_cart">
-                        <p class="name_cart">Design </p>
-                        <div class="title_cart">
-                            <h3 class="title_cart_text">
-                                What is Wireframing?
-
-                            </h3>
-                            <i class="fa-solid fa-arrow-up cart_arrow"></i>
-                        </div>
-                        <p class="text_cart">
+                        <p class="card-sub">Design</p>
+                        <h3 class="card-title">UX review presentations <i class="fa-solid fa-arrow-up cart-arrow"></i>
+                        </h3>
+                        <p class="card-description">Width
                             How do you create compelling presentations that wow your colleagues and impress your
                             managers?
                         </p>
-
-                    </div>
-                    <div class="avata_cart">
-                        <div class="img_avata">
-                            <img src="https://s3-alpha-sig.figma.com/img/2f11/9087/0d753151f58657595136f67c584b5c8c?Expires=1660521600&Signature=QV6tTyIyFQUbbJ2v3HMvBgQ6wwBwtfvHyE5n4SxcC7r8ocDwsIHFwH4hwk9TVs~HBCDTw76bLJlJ~7AMZkd8RO5SZ2InMcYHThpFu3LZPuZvJA49iM8UYqA6Ho0OkXDLRU4fqvoQRBeqnG7P9PFzMGq0~FnZn-ZX27Dz2893CiC3drL77diJaOrJy-Trc2J1FzM~ynUwrI1W0~EgzXguPbvv~377vG~DCAbGtUriNIBGpPkvegPp4tCuFyME0dVIzmVehjgjKbcMNPZERyoA4qq99bvHoceRjY-LyN6JqIHaovT5WgjLs9x1UQkMplzfDxZ4~O3RmyZ3teX-WK1RIg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
-                                alt="">
+                        <div class="avatar">
+                            <div class="avatar-img">
+                                <img src="image/avatar0.jpg" alt="">
+                            </div>
+                            <div class="avatar-text">
+                                <div class="avatar-title">Olivia Rhye</div>
+                                <div class="avatar-time">20 Jan 2022</div>
+                            </div>
                         </div>
-                        <div class="text_avata">
-                            <p class="name_avata">
-                                Olivia Rhye
-                            </p>
-                            <p class="day_avata">
-                                20 Jan 2022
-
-                            </p>
-                        </div>
-
                     </div>
+
                 </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 height-flex">
+                    <div class="blog-card">
+                        <div class="card-img">
+                            <img src="image/card1.jpg" alt="">
+                        </div>
+                        <p class="card-sub">Product</p>
+                        <h3 class="card-title">UX review presentations <i class="fa-solid fa-arrow-up cart-arrow"></i>
+                        </h3>
+                        <p class="card-description">Linear helps streamline software projects, sprints, tasks, and bug
+                            tracking. Here’s how to get started.</p>
+                        <div class="avatar">
+                            <div class="avatar-img">
+                                <img src="image/avatar1.jpg" alt="">
+                            </div>
+                            <div class="avatar-text">
+                                <div class="avatar-title">Olivia Rhye</div>
+                                <div class="avatar-time">20 Jan 2022</div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 height-flex">
+                    <div class="blog-card">
+                        <div class="card-img">
+                            <img src="image/card2.jpg" alt="">
+                        </div>
+                        <p class="card-sub">Software Engineering</p>
+                        <h3 class="card-title">Migrating to Linear <i class="fa-solid fa-arrow-up cart-arrow"></i>
+                        </h3>
+                        <p class="card-description">The rise of RESTful APIs has been met by a rise in tools for
+                            creating, testing, and managing them.</p>
+                        <div class="avatar">
+                            <div class="avatar-img">
+                                <img src="image/avatar2.jpg" alt="">
+                            </div>
+                            <div class="avatar-text">
+                                <div class="avatar-title">Olivia Rhye</div>
+                                <div class="avatar-time">20 Jan 2022</div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="action">
+                <button class="btn-load"> <i class="fa-solid fa-arrow-down"></i> Load more</button>
             </div>
 
         </div>
-        <div class="row">
-            <div class="col col-md-12 col-lg-6 col-xl-4 cart_pading_bottom">
-                <div class="cart">
-                    <div class="img_cart">
-                        <img src="https://images.unsplash.com/photo-1596079890701-dd42edf0b7d4?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
-                            alt="">
-                    </div>
-                    <div class="content_cart">
-                        <p class="name_cart">Design </p>
-                        <div class="title_cart">
-                            <h3 class="title_cart_text">
-                                How collaboration makes us better designers
+    </section>
+    <section id="comment">
+        <div class="container">
+            <div class="comment">
+                <h2 class="comment-title">Comments</h2>
+                <div class="comment-content">
+                    <div class="comment-text">
+                        <div class="comment-img"><img src="image/avatar0.jpg" alt=""></div>
+                        <div class="comment-main">
+                            <div class="comment-time">2 mins <span>...</span></div>
+                            <p class="comment-discript">Lorem ipsum dolor sit amet, coetur adipiscing elit ut aliquam,
+                                purus sit amet luctus Lorem ipsum dolor sit amet aliquam, purus sit amet luctus</p>
+                            <div class="comment-icon">
+                                <div class="icon-like">15 Like<i class="fa-solid fa-thumbs-up"></i></div>
+                                <div class="icon-comment">6 Replies
+                                    <i class="fa-regular fa-comment"></i>
+                                </div>
+                            </div>
 
-                            </h3>
-                            <i class="fa-solid fa-arrow-up cart_arrow"></i>
-                        </div>
-                        <p class="text_cart">
-                            How do you create compelling presentations that wow your colleagues and impress your
-                            managers?
-                        </p>
-
-                    </div>
-                    <div class="avata_cart">
-                        <div class="img_avata">
-                            <img src="https://s3-alpha-sig.figma.com/img/2f11/9087/0d753151f58657595136f67c584b5c8c?Expires=1660521600&Signature=QV6tTyIyFQUbbJ2v3HMvBgQ6wwBwtfvHyE5n4SxcC7r8ocDwsIHFwH4hwk9TVs~HBCDTw76bLJlJ~7AMZkd8RO5SZ2InMcYHThpFu3LZPuZvJA49iM8UYqA6Ho0OkXDLRU4fqvoQRBeqnG7P9PFzMGq0~FnZn-ZX27Dz2893CiC3drL77diJaOrJy-Trc2J1FzM~ynUwrI1W0~EgzXguPbvv~377vG~DCAbGtUriNIBGpPkvegPp4tCuFyME0dVIzmVehjgjKbcMNPZERyoA4qq99bvHoceRjY-LyN6JqIHaovT5WgjLs9x1UQkMplzfDxZ4~O3RmyZ3teX-WK1RIg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
-                                alt="">
-                        </div>
-                        <div class="text_avata">
-                            <p class="name_avata">
-                                Olivia Rhye
-                            </p>
-                            <p class="day_avata">
-                                20 Jan 2022
-
-                            </p>
                         </div>
 
-                    </div>
-                </div>
-            </div>
-            <div class="col col-md-12 col-lg-6 col-xl-4 cart_pading_bottom">
-                <div class="cart">
-                    <div class="img_cart">
-                        <img src="https://images.unsplash.com/photo-1596079890701-dd42edf0b7d4?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
-                            alt="">
-                    </div>
-                    <div class="content_cart">
-                        <p class="name_cart">Design </p>
-                        <div class="title_cart">
-                            <h3 class="title_cart_text">
-                                Our top 10 Javascript frameworks to use
-
-                            </h3>
-                            <i class="fa-solid fa-arrow-up cart_arrow"></i>
-                        </div>
-                        <p class="text_cart">
-                            How do you create compelling presentations that wow your colleagues and impress your
-                            managers?
-                        </p>
 
                     </div>
-                    <div class="avata_cart">
-                        <div class="img_avata">
-                            <img src="https://s3-alpha-sig.figma.com/img/2f11/9087/0d753151f58657595136f67c584b5c8c?Expires=1660521600&Signature=QV6tTyIyFQUbbJ2v3HMvBgQ6wwBwtfvHyE5n4SxcC7r8ocDwsIHFwH4hwk9TVs~HBCDTw76bLJlJ~7AMZkd8RO5SZ2InMcYHThpFu3LZPuZvJA49iM8UYqA6Ho0OkXDLRU4fqvoQRBeqnG7P9PFzMGq0~FnZn-ZX27Dz2893CiC3drL77diJaOrJy-Trc2J1FzM~ynUwrI1W0~EgzXguPbvv~377vG~DCAbGtUriNIBGpPkvegPp4tCuFyME0dVIzmVehjgjKbcMNPZERyoA4qq99bvHoceRjY-LyN6JqIHaovT5WgjLs9x1UQkMplzfDxZ4~O3RmyZ3teX-WK1RIg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
-                                alt="">
-                        </div>
-                        <div class="text_avata">
-                            <p class="name_avata">
-                                Olivia Rhye
-                            </p>
-                            <p class="day_avata">
-                                20 Jan 2022
-
-                            </p>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-            <div class="col col-md-12 col-lg-6 col-xl-4 cart_pading_bottom">
-                <div class="cart">
-                    <div class="img_cart">
-                        <img src="https://images.unsplash.com/photo-1596079890701-dd42edf0b7d4?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
-                            alt="">
-                    </div>
-                    <div class="content_cart">
-                        <p class="name_cart">Design </p>
-                        <div class="title_cart">
-                            <h3 class="title_cart_text">
-                                Podcast: Creating a better CX Community
-
-                            </h3>
-                            <i class="fa-solid fa-arrow-up cart_arrow"></i>
-                        </div>
-                        <p class="text_cart">
-                            How do you create compelling presentations that wow your colleagues and impress your
-                            managers?
-                        </p>
-
-                    </div>
-                    <div class="avata_cart">
-                        <div class="img_avata">
-                            <img src="https://s3-alpha-sig.figma.com/img/2f11/9087/0d753151f58657595136f67c584b5c8c?Expires=1660521600&Signature=QV6tTyIyFQUbbJ2v3HMvBgQ6wwBwtfvHyE5n4SxcC7r8ocDwsIHFwH4hwk9TVs~HBCDTw76bLJlJ~7AMZkd8RO5SZ2InMcYHThpFu3LZPuZvJA49iM8UYqA6Ho0OkXDLRU4fqvoQRBeqnG7P9PFzMGq0~FnZn-ZX27Dz2893CiC3drL77diJaOrJy-Trc2J1FzM~ynUwrI1W0~EgzXguPbvv~377vG~DCAbGtUriNIBGpPkvegPp4tCuFyME0dVIzmVehjgjKbcMNPZERyoA4qq99bvHoceRjY-LyN6JqIHaovT5WgjLs9x1UQkMplzfDxZ4~O3RmyZ3teX-WK1RIg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
-                                alt="">
-                        </div>
-                        <div class="text_avata">
-                            <p class="name_avata">
-                                Olivia Rhye
-                            </p>
-                            <p class="day_avata">
-                                20 Jan 2022
-
-                            </p>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-        <div class="action">
-            <div class="button_action">
-                <p class="button">
-                    Load more
-                </p>
-
-            </div>
-        </div>
-
-
-    </div>
-    <div class="wrapper">
-        <div class="comments">
-            <div class="commnet_title">
-                <h3>Comments</h3>
-            </div>
-            <div class="cont">
-                <div class="comment_container">
-                    <div class="comment_img">
-                        <img src="https://s3-alpha-sig.figma.com/img/75f9/b5ef/d4087b783ef5dd1b9660a167fb11daff?Expires=1661126400&Signature=WcpNrf1FM4Hhl0WREn98vrPX4ROaYTIxl3Wn9GezWOXq8pNmVSf4aObfk3qVz9v35dogB6cXqSI7kzmUbpKI9sSME~z7CzIbqDvFc1x9DPVDDWbonJX0-oC3ufxFt-Q8pFKaWZ4qemDTKeECdoLLSWfXouzjevt7QKm7fpTjPToTdqkgKU~9NZetlfs-xDNPHXyL06PJda0KwrC7XnlpVW4U3xF4VXDj4vuytKaadPTcvdWUcFcoLub5bPnzsstgVpudXnFb885bjdMyU2qgTUF~2oRqYWFyTMqx4b0nTbuix0ovU6q2Xdt2i84809OcomcUr3hncl71yO1~xbosYg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
-                            alt="">
-                    </div>
-                    <div class="comment_right">
-                        <div class="time">2 mins <span>...</span></div>
-                        <p class="commen">
-                            Lorem ipsum dolor sit amet, coetur adipiscing elit ut aliquam, purus sit amet luctus Lorem
-                            ipsum
-                            dolor sit amet aliquam, purus sit amet luctus
-                        </p>
-                        <div class="icons">
-                            <a href="" class="like">15Like <i class="fa-solid fa-thumbs-up"></i></a>
-                            <a href="" class="replies">6 Replies<i class="fa-regular fa-comment"></i></a>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="reply">
                     <div class="view">
                         <a href="">View all 124 comments <i class="fa-solid fa-chevron-down"></i></a>
                     </div>
-                    <div class="comment_container">
-                        <div class="comment_img">
-                            <img src="https://s3-alpha-sig.figma.com/img/75f9/b5ef/d4087b783ef5dd1b9660a167fb11daff?Expires=1661126400&Signature=WcpNrf1FM4Hhl0WREn98vrPX4ROaYTIxl3Wn9GezWOXq8pNmVSf4aObfk3qVz9v35dogB6cXqSI7kzmUbpKI9sSME~z7CzIbqDvFc1x9DPVDDWbonJX0-oC3ufxFt-Q8pFKaWZ4qemDTKeECdoLLSWfXouzjevt7QKm7fpTjPToTdqkgKU~9NZetlfs-xDNPHXyL06PJda0KwrC7XnlpVW4U3xF4VXDj4vuytKaadPTcvdWUcFcoLub5bPnzsstgVpudXnFb885bjdMyU2qgTUF~2oRqYWFyTMqx4b0nTbuix0ovU6q2Xdt2i84809OcomcUr3hncl71yO1~xbosYg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
-                                alt="">
-                        </div>
-                        <div class="comment_right">
-                            <div class="time">2 mins <span>...</span></div>
-                            <p class="commen">
-                                Lorem ipsum dolor sit amet, coetur adipiscing elit ut
-                            </p>
-                            <div class="icons">
-                                <a href="" class="like">15Like <i class="fa-solid fa-thumbs-up"></i></a>
-                                <a href="" class="replies">6 Replies<i class="fa-regular fa-comment"></i></a>
+                    <div class="comment-text">
+                        <div class="comment-img"><img src="image/avatar1.jpg" alt=""></div>
+                        <div class="comment-main">
+                            <div class="comment-time">2 mins<span>...</span></div>
+                            <p class="comment-discript">Lorem ipsum dolor sit amet, coetur adipiscing elit ut aliquam,
+                                purus sit amet luctus Lorem ipsum dolor sit amet aliquam, purus sit amet luctus</p>
+                            <div class="comment-icon">
+                                <div class="icon-like">15 Like<i class="fa-solid fa-thumbs-up"></i></div>
+                                <div class="icon-comment">6 Replies
+                                    <i class="fa-regular fa-comment"></i>
+                                </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="comment_container">
-                        <div class="comment_img">
-                            <img src="https://s3-alpha-sig.figma.com/img/75f9/b5ef/d4087b783ef5dd1b9660a167fb11daff?Expires=1661126400&Signature=WcpNrf1FM4Hhl0WREn98vrPX4ROaYTIxl3Wn9GezWOXq8pNmVSf4aObfk3qVz9v35dogB6cXqSI7kzmUbpKI9sSME~z7CzIbqDvFc1x9DPVDDWbonJX0-oC3ufxFt-Q8pFKaWZ4qemDTKeECdoLLSWfXouzjevt7QKm7fpTjPToTdqkgKU~9NZetlfs-xDNPHXyL06PJda0KwrC7XnlpVW4U3xF4VXDj4vuytKaadPTcvdWUcFcoLub5bPnzsstgVpudXnFb885bjdMyU2qgTUF~2oRqYWFyTMqx4b0nTbuix0ovU6q2Xdt2i84809OcomcUr3hncl71yO1~xbosYg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
-                                alt="">
-                        </div>
-                        <div class="comment_right">
-                            <div class="time">2 mins <span>...</span></div>
-                            <p class="commen">
-                                Lorem ipsum dolor sit amet, coetur adipiscing elit ut
-                            </p>
-                            <div class="icons">
-                                <a href="" class="like">15Like <i class="fa-solid fa-thumbs-up"></i></a>
-                                <a href="" class="replies">6 Replies<i class="fa-regular fa-comment"></i></a>
-                            </div>
+
                         </div>
 
 
                     </div>
+                    <div class="comment-text">
+                        <div class="comment-img"><img src="image/avatar2.jpg" alt=""></div>
+                        <div class="comment-main">
+                            <div class="comment-time">2 mins<span>...</span></div>
+                            <p class="comment-discript">Lorem ipsum dolor sit amet, coetur adipiscing elit ut aliquam,
+                                purus sit amet luctus Lorem ipsum dolor sit amet aliquam, purus sit amet luctus</p>
+                            <div class="comment-icon">
+                                <div class="icon-like">15 Like<i class="fa-solid fa-thumbs-up"></i></i></div>
+                                <div class="icon-comment">6 Replies
+                                    <i class="fa-regular fa-comment"></i>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+                <div class="comment-search">
+                    <input type="text" placeholder="Start typing...">
+                    <a href=""><i class="fa-solid fa-rocket"></i></a>
                 </div>
             </div>
-            <div class="input_comment">
-                <input type="text" placeholder="Start typing">
-                <button class="icon">
-                    <i class="fa-solid fa-rocket"></i>
-                </button>
-            </div>
+
         </div>
 
-    </div>
+    </section>
 
 
 </body>
-
 
 </html>
